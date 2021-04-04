@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<test name="Test" preserve-order="true">
+		<classes>
+			<class name="com.tests.home.HomePageTests" />
+			<class name="com.tests.registration.SignUpTests" />
+			<class name="com.tests.registration.SignInTests" />
+			<class name="com.tests.addresses.AddressTests" />
+			<class name="com.tests.addresses.ValidateAddressTests" />
+			<class name="com.tests.addresslinks.EditLinkTests" />
+			<class name="com.tests.addresslinks.DestroyLinkTests" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.tests.addresses.AddressTests">
+        <methods>
+          <include name="startup"/>
+          <include name="beforeClass"/>
+          <include name="addressFormsTest" invocation-numbers="8 9 10 12 13"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.tests.addresses.AddressTests -->
+      <class name="com.tests.addresslinks.EditLinkTests">
+        <methods>
+          <include name="startup"/>
+          <include name="beforeClass"/>
+          <include name="EditLink" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.tests.addresslinks.EditLinkTests -->
+      <class name="com.tests.addresses.ValidateAddressTests">
+        <methods>
+          <include name="startup"/>
+          <include name="beforeClass"/>
+          <include name="VerifyAddressForms" invocation-numbers="3 8 9 10 12 13"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.tests.addresses.ValidateAddressTests -->
+      <class name="com.tests.addresslinks.DestroyLinkTests">
+        <methods>
+          <include name="startup"/>
+          <include name="beforeClass"/>
+          <include name="destroyLink" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.tests.addresslinks.DestroyLinkTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
