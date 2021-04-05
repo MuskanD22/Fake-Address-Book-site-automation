@@ -15,7 +15,7 @@ public class ValidateAddressTests extends BaseClass {
 	ValidateAddressPage page;
 	ValidateAddressLocators va;
 
-	@Test( dataProvider = "data")
+	@Test( dataProvider = "getValidateData")
 	public void VerifyAddressForms(String email, String password, String firstname, String lastname, String address1,
 			String address2, String city, String state, String zipCode, String birthdate, String age, String website,
 			String phone, String note) throws InterruptedException {
@@ -28,8 +28,9 @@ public class ValidateAddressTests extends BaseClass {
 		logger.log(Status.INFO, "Start Verifying filled data in Address form ");
 
 		login(email, password);
+		
 		logger.log(Status.PASS, "Login successfully");
-
+			
 		Thread.sleep(3000);
 		page.getAddressLink();
 		logger.log(Status.INFO, "clicked on the address link");

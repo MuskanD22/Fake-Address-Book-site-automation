@@ -85,6 +85,36 @@ public class TestUtil {
 		return myData;
 	}
 
-	
+	public static ArrayList<Object[]> getValidateData() {
+		ArrayList<Object[]> myData = new ArrayList<>();
+		try {
+			reader = new Xls_Reader(
+					"C:\\Users\\muskan.dureja\\eclipse-workspace\\PracticeAutomation\\ExcelReports\\FakeAddressBook.xlsx");
+			// reader = new Xls_Reader("D:\\Reports\\addd.xlsx");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		for (int rowNum = 2; rowNum <= reader.getRowCount("ValidateAddressData"); rowNum++) {
+
+			String email = reader.getCellData("ValidateAddressData", "email", rowNum);
+			String password = reader.getCellData("ValidateAddressData", "password", rowNum);
+			String firstname = reader.getCellData("ValidateAddressData", "firstname", rowNum);
+			String lastname = reader.getCellData("ValidateAddressData", "lastname", rowNum);
+			String address1 = reader.getCellData("ValidateAddressData", "address1", rowNum);
+			String address2 = reader.getCellData("ValidateAddressData", "address2", rowNum);
+			String city = reader.getCellData("ValidateAddressData", "city", rowNum);
+			String state = reader.getCellData("ValidateAddressData", "state", rowNum);
+			String zipcode = reader.getCellData("ValidateAddressData", "zipcode", rowNum);
+			String birthdate = reader.getCellData("ValidateAddressData", "birthdate", rowNum);
+			String age = reader.getCellData("ValidateAddressData", "age", rowNum);
+			String website = reader.getCellData("ValidateAddressData", "website", rowNum);
+			String phone = reader.getCellData("ValidateAddressData", "phone", rowNum);
+			String note = reader.getCellData("ValidateAddressData", "note", rowNum);
+			Object ob[] = { email, password, firstname, lastname, address1, address2, city, state, zipcode, birthdate,
+					age, website, phone, note };
+			myData.add(ob);
+		}
+		return myData;
+	}
 
 }

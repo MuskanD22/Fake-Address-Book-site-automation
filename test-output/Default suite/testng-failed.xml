@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.addresslinks.EditLinkTests">
+      <class name="com.tests.addresslinks.DestroyLinkTests">
         <methods>
           <include name="startup"/>
           <include name="beforeClass"/>
-          <include name="EditLink"/>
+          <include name="destroyLink" invocation-numbers="7"/>
           <include name="beforeMethod"/>
           <include name="afterSuite"/>
           <include name="afterTest"/>
@@ -15,7 +15,7 @@
           <include name="tearDown"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.tests.addresslinks.EditLinkTests -->
+      </class> <!-- com.tests.addresslinks.DestroyLinkTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

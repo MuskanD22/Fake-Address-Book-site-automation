@@ -157,7 +157,8 @@ public class AddressTests extends BaseClass {
 		act.sendKeys(Keys.TAB.ENTER).build().perform();
 
 		if (page.getCurrentUrl().contentEquals("http://a.testaddressbook.com/addresses/new")) {
-			logger.log(Status.WARNING, "user entered some wrong details ");
+			logger.log(Status.INFO, "user entered some wrong details");
+			logger.log(Status.PASS, "Test passed");
 
 		} else if (page.getCurrentUrl().contentEquals("http://a.testaddressbook.com/addresses")) {
 			WebElement errorMessage = AddressPageLocators.getErrorMessageElement();

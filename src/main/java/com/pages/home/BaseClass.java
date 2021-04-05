@@ -44,7 +44,7 @@ public class BaseClass {
 
 	@BeforeSuite
 	public void startup() {
-		reporter = new ExtentHtmlReporter("D:\\ReportData\\lastRun3.html");
+		reporter = new ExtentHtmlReporter("D:\\ReportData\\lastRun5.html");
 		reporter.setAppendExisting(true);
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
@@ -97,10 +97,11 @@ public class BaseClass {
 	 * form
 	 */
 
-	/*@DataProvider(name = "signUp")
-	public Object[][] dataFeed() {
-}
-*/
+	@DataProvider(name = "getValidateData")
+	public Iterator<Object[]> getDataForValidateAddressTests() {
+		ArrayList<Object[]> testdata = TestUtil.getValidateData();
+		return testdata.iterator();
+	}
 	/*
 	 * This getData() will provide the data when user is entering the data in
 	 * address form

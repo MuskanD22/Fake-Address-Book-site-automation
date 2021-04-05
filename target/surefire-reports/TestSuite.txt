@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 56, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 779.293 s <<< FAILURE! - in TestSuite
+destroyLink(com.tests.addresslinks.DestroyLinkTests)  Time elapsed: 1.07 s  <<< FAILURE!
+java.lang.AssertionError: expected [http://a.testaddressbook.com/] but found [http://a.testaddressbook.com/session]
+	at com.tests.addresslinks.DestroyLinkTests.destroyLink(DestroyLinkTests.java:25)
+
+EditLink(com.tests.addresslinks.EditLinkTests)  Time elapsed: 8.103 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/table/tbody/tr/td[6]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BAV-L0832', ip: '192.168.112.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MUSKAN~1.DUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6fe53b2ea15f18e9461239b9987c7e18
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[6]/a}
+	at com.tests.addresslinks.EditLinkTests.EditLink(EditLinkTests.java:32)
+
+EditLink(com.tests.addresslinks.EditLinkTests)  Time elapsed: 8.027 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/table/tbody/tr/td[6]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BAV-L0832', ip: '192.168.112.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MUSKAN~1.DUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 55c44bfdabea225c274591d88a088a4a
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[6]/a}
+	at com.tests.addresslinks.EditLinkTests.EditLink(EditLinkTests.java:32)
+
+EditLink(com.tests.addresslinks.EditLinkTests)  Time elapsed: 8.817 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/table/tbody/tr/td[6]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BAV-L0832', ip: '192.168.112.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MUSKAN~1.DUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: deb76bbdabe591b9628af4ed227896e4
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[6]/a}
+	at com.tests.addresslinks.EditLinkTests.EditLink(EditLinkTests.java:32)
+
+EditLink(com.tests.addresslinks.EditLinkTests)  Time elapsed: 8.446 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/table/tbody/tr/td[6]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BAV-L0832', ip: '192.168.112.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MUSKAN~1.DUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cc27f77eaf56708f6da33817502fa126
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[6]/a}
+	at com.tests.addresslinks.EditLinkTests.EditLink(EditLinkTests.java:32)
+
+EditLink(com.tests.addresslinks.EditLinkTests)  Time elapsed: 8.082 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/table/tbody/tr/td[6]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BAV-L0832', ip: '192.168.112.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MUSKAN~1.DUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64078}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45f80d26139b854c3efba1c066644671
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[6]/a}
+	at com.tests.addresslinks.EditLinkTests.EditLink(EditLinkTests.java:32)
+
+EditLink(com.tests.addresslinks.EditLinkTests)  Time elapsed: 8.019 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/table/tbody/tr/td[6]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BAV-L0832', ip: '192.168.112.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MUSKAN~1.DUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64107}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66cdaef9fb49af7a16becaa4d8e105f6
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[6]/a}
+	at com.tests.addresslinks.EditLinkTests.EditLink(EditLinkTests.java:32)
+
+EditLink(com.tests.addresslinks.EditLinkTests)  Time elapsed: 7.872 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/table/tbody/tr/td[6]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BAV-L0832', ip: '192.168.112.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MUSKAN~1.DUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bcb5d5500b953dbddcaaadc91f5b70d
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[6]/a}
+	at com.tests.addresslinks.EditLinkTests.EditLink(EditLinkTests.java:32)
+
+EditLink(com.tests.addresslinks.EditLinkTests)  Time elapsed: 7.714 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/table/tbody/tr/td[6]/a"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BAV-L0832', ip: '192.168.112.27', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MUSKAN~1.DUR\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64158}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e09a183c8b44077926dfa81032e0a7a
+*** Element info: {Using=xpath, value=/html/body/div/table/tbody/tr/td[6]/a}
+	at com.tests.addresslinks.EditLinkTests.EditLink(EditLinkTests.java:32)
+

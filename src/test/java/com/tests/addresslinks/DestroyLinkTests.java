@@ -21,6 +21,7 @@ public class DestroyLinkTests extends BaseClass {
 		logger.log(Status.INFO, "Start Verifying destroy Link");
 
 		login("amrita1@gmail.com","amrita12");
+		//login(email,password);
 		Assert.assertEquals(page.getCurrentUrl(), "http://a.testaddressbook.com/");
 		logger.log(Status.PASS, "Login Successfully");
 

@@ -1,7 +1,0 @@
-com\tests\addresses\AddressTests.class
-com\tests\addresslinks\EditLinkTests.class
-com\tests\addresslinks\DestroyLinkTests.class
-com\tests\addresses\ValidateAddressTests.class
-com\tests\home\HomePageTests.class
-com\tests\registration\SignInTests.class
-com\tests\registration\SignUpTests.class
